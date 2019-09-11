@@ -1,0 +1,122 @@
+@import 'variables';
+@import 'mixin';
+@import 'fonts';
+@import 'nav';
+@import 'base';
+.gray{
+  color:$gray;
+}
+.logo{
+  margin-left: 40px;
+  margin-top: 30px;
+  @include respond-to(sm){
+    margin-left: 180%;
+    margin-top:50%;
+  }
+}
+.mainText{
+  position: absolute;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  font-family: 'Hepta Slab', serif;
+  @include respond-to(sm){
+    color: white;
+  };
+}
+.mainText1{
+  top:35% !important;
+  @include respond-to(sm){
+    top: 32% !important;
+  };
+}
+.mainText2{
+  top:42% !important;
+  @include respond-to(sm){
+    top: 40% !important;
+  };
+}
+.highlight{
+  background-color: #f8f9fa;
+  width: 50%;
+}
+.title{
+  color: #b3b3b3;
+  font-weight: bold;
+  &::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+}
+.bioHeader{
+  // width: 40%;
+  font-weight: bold;
+  text-shadow: 3px 3px #b3b3b3;
+}
+.bio{
+  letter-spacing: 1px;
+  line-height: 1.7;
+}
+mark{
+  display: inline;
+  padding-bottom: 0.5em;
+}
+.demo {
+  max-width: 960px;
+  margin: 30px auto;
+}
+.demo > div {
+  float: left;
+  margin: 20px;
+}
+.mySkills{
+   transform: rotate(-90deg);
+   margin-right: -60px;
+   @include respond-to(sm){
+     display: none;
+   };
+}
+
+.card-body{
+  min-height: 390px !important;
+  p{
+    min-height: 50px !important;
+  }
+}
+
+#contact{
+  padding-top: 60px;
+  background: linear-gradient(to bottom, #fff, #dadada);
+  background: -webkit-linear-gradient(to bottom, #fff, #dadada);
+}
+.form-line{
+  border-right: 1px solid #cccabd;
+}
+.form-group{
+  margin-top: 10px;
+  margin-right: 20px;
+}
+label{
+  font-size: 1em;
+  line-height: 1em;
+}
+textarea.form-control {
+    height: 150px;
+}
+.submit{
+  font-size: 1.2em;
+  float: right;
+}
+.imgBox{
+  height: 600px;
+  width: 500px;
+  @include respond-to(sm){
+    display: none;
+  };
+}
+.profile{
+  height: 70%;
+}
+.img-fluid{
+  height: 373.50px;
+}

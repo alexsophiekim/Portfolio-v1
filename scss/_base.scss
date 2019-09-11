@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(../img/uxbg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Open Sans', serif;
+  @include respond-to(sm){
+    background-image: none;
+  };
+}
+section{
+  width: 100vw;
+  height: 100vh;
+  scroll-behavior: smooth;
+  overflow: auto;
+  overflow-x: hidden;
+  scroll-snap-align: start;
+}
+
+.fullWidth{
+  width: 100vw;
+}

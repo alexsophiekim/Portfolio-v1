@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css?family=Hepta+Slab|Open+Sans|Karma:400,500&display=swap");
+/* line 1, ../scss/_nav.scss */
+.mainNav {
+  display: flex;
+  margin-top: 30px;
+  font-size: 15px;
+  width: 100vw;
+  z-index: 1;
+  position: fixed; }
+
+/* line 9, ../scss/_nav.scss */
+.navBtn {
+  background: transparent !important;
+  border: none;
+  display: block;
+  font-size: 25px;
+  position: absolute;
+  right: 5%;
+  top: 10px;
+  cursor: pointer; }
+  @media (max-width: 576px) {
+    /* line 9, ../scss/_nav.scss */
+    .navBtn {
+      display: none; } }
+
+/* line 24, ../scss/_nav.scss */
+.mainUl {
+  position: absolute;
+  width: 250px;
+  margin: -100px 0 0 0;
+  padding-top: 110px;
+  right: 9%;
+  float: right;
+  width: fit-content;
+  list-style: none;
+  display: flex;
+  flex-direction: row; }
+  @media (max-width: 576px) {
+    /* line 24, ../scss/_nav.scss */
+    .mainUl {
+      display: none; } }
+  /* line 41, ../scss/_nav.scss */
+  .mainUl li {
+    padding: 5px 0;
+    margin-top: 0;
+    text-transform: uppercase; }
+
+/* line 47, ../scss/_nav.scss */
+.mainUl a {
+  font-size: 18px;
+  color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none; }
+  @media (max-width: 576px) {
+    /* line 47, ../scss/_nav.scss */
+    .mainUl a {
+      font-size: 15px; } }
+  /* line 56, ../scss/_nav.scss */
+  .mainUl a:hover {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black; }
+  /* line 60, ../scss/_nav.scss */
+  .mainUl a:active {
+    background-color: black;
+    color: white; }
+
+/* line 65, ../scss/_nav.scss */
+.mobile-nav {
+  display: none; }
+  @media (max-width: 576px) {
+    /* line 65, ../scss/_nav.scss */
+    .mobile-nav {
+      display: block;
+      position: absolute;
+      bottom: 15%;
+      width: 90%; }
+      /* line 72, ../scss/_nav.scss */
+      .mobile-nav .mobileLi {
+        height: 100px;
+        margin-top: 15%; }
+        /* line 75, ../scss/_nav.scss */
+        .mobile-nav .mobileLi a {
+          color: black;
+          font-family: "Open Sans", sans-serif;
+          font-size: 20px;
+          text-align: center;
+          padding-top: 20%; } }
+
+/* line 85, ../scss/_nav.scss */
+.behance {
+  width: 10px; }
+
+/* line 88, ../scss/_nav.scss */
+.snsUl {
+  bottom: 30px;
+  left: 3%;
+  font-size: 18px; }
+  @media (max-width: 576px) {
+    /* line 88, ../scss/_nav.scss */
+    .snsUl {
+      right: 30%; } }
+
+/* line 1, ../scss/_base.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* line 6, ../scss/_base.scss */
+body {
+  background-image: url(../img/uxbg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Open Sans', serif; }
+  @media (max-width: 576px) {
+    /* line 6, ../scss/_base.scss */
+    body {
+      background-image: none; } }
+
+/* line 18, ../scss/_base.scss */
+section {
+  width: 100vw;
+  height: 100vh;
+  scroll-behavior: smooth;
+  overflow: auto;
+  overflow-x: hidden;
+  scroll-snap-align: start; }
+
+/* line 27, ../scss/_base.scss */
+.fullWidth {
+  width: 100vw; }
+
+/* line 6, ../scss/style.scss */
+.gray {
+  color: #b3b3b3; }
+
+/* line 9, ../scss/style.scss */
+.logo {
+  margin-left: 40px;
+  margin-top: 30px; }
+  @media (max-width: 576px) {
+    /* line 9, ../scss/style.scss */
+    .logo {
+      margin-left: 180%;
+      margin-top: 50%; } }
+
+/* line 17, ../scss/style.scss */
+.mainText {
+  position: absolute;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  font-family: 'Hepta Slab', serif; }
+  @media (max-width: 576px) {
+    /* line 17, ../scss/style.scss */
+    .mainText {
+      color: white; } }
+
+/* line 26, ../scss/style.scss */
+.mainText1 {
+  top: 35% !important; }
+  @media (max-width: 576px) {
+    /* line 26, ../scss/style.scss */
+    .mainText1 {
+      top: 32% !important; } }
+
+/* line 32, ../scss/style.scss */
+.mainText2 {
+  top: 42% !important; }
+  @media (max-width: 576px) {
+    /* line 32, ../scss/style.scss */
+    .mainText2 {
+      top: 40% !important; } }
+
+/* line 38, ../scss/style.scss */
+.highlight {
+  background-color: #f8f9fa;
+  width: 50%; }
+
+/* line 42, ../scss/style.scss */
+.title {
+  color: #b3b3b3;
+  font-weight: bold; }
+  /* line 45, ../scss/style.scss */
+  .title::after {
+    display: block;
+    content: "";
+    clear: both; }
+
+/* line 51, ../scss/style.scss */
+.bioHeader {
+  font-weight: bold;
+  text-shadow: 3px 3px #b3b3b3; }
+
+/* line 56, ../scss/style.scss */
+.bio {
+  letter-spacing: 1px;
+  line-height: 1.7; }
+
+/* line 60, ../scss/style.scss */
+mark {
+  display: inline;
+  padding-bottom: 0.5em; }
+
+/* line 64, ../scss/style.scss */
+.demo {
+  max-width: 960px;
+  margin: 30px auto; }
+
+/* line 68, ../scss/style.scss */
+.demo > div {
+  float: left;
+  margin: 20px; }
+
+/* line 72, ../scss/style.scss */
+.mySkills {
+  transform: rotate(-90deg);
+  margin-right: -60px; }
+  @media (max-width: 576px) {
+    /* line 72, ../scss/style.scss */
+    .mySkills {
+      display: none; } }
+
+/* line 80, ../scss/style.scss */
+.card-body {
+  min-height: 390px !important; }
+  /* line 82, ../scss/style.scss */
+  .card-body p {
+    min-height: 50px !important; }
+
+/* line 87, ../scss/style.scss */
+#contact {
+  padding-top: 60px;
+  background: linear-gradient(to bottom, #fff, #dadada);
+  background: -webkit-linear-gradient(to bottom, #fff, #dadada); }
+
+/* line 92, ../scss/style.scss */
+.form-line {
+  border-right: 1px solid #cccabd; }
+
+/* line 95, ../scss/style.scss */
+.form-group {
+  margin-top: 10px;
+  margin-right: 20px; }
+
+/* line 99, ../scss/style.scss */
+label {
+  font-size: 1em;
+  line-height: 1em; }
+
+/* line 103, ../scss/style.scss */
+textarea.form-control {
+  height: 150px; }
+
+/* line 106, ../scss/style.scss */
+.submit {
+  font-size: 1.2em;
+  float: right; }
+
+/* line 110, ../scss/style.scss */
+.imgBox {
+  height: 600px;
+  width: 500px; }
+  @media (max-width: 576px) {
+    /* line 110, ../scss/style.scss */
+    .imgBox {
+      display: none; } }
+
+/* line 117, ../scss/style.scss */
+.profile {
+  height: 70%; }
+
+/* line 120, ../scss/style.scss */
+.img-fluid {
+  height: 373.50px; }
+
+/*# sourceMappingURL=style.css.map */

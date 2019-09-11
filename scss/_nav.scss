@@ -1,0 +1,95 @@
+.mainNav{
+  display: flex;
+  margin-top: 30px;
+  font-size: 15px;
+  width: 100vw;
+  z-index: 1;
+  position: fixed;
+}
+.navBtn{
+  background: transparent !important;
+  border: none;
+  display: block;
+  font-size: 25px;
+  position: absolute;
+  right:5%;
+  top: 10px;
+  cursor: pointer;
+  @include respond-to(sm){
+      // font-size: 20px;
+      // top:0;
+      display: none;
+  }
+}
+.mainUl{
+  position: absolute;
+  width: 250px;
+  margin: -100px 0 0 0;
+  padding-top: 110px;
+  right: 9%;
+  float: right;
+  width: fit-content;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  @include respond-to(sm){
+    // flex-direction: column;
+    // padding-top: 85px;
+    // right: 40px;
+    display: none;
+  };
+  li{
+    padding:5px 0;
+    margin-top: 0;
+    text-transform: uppercase;
+  }
+}
+.mainUl a{
+  font-size: 18px;
+  color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  @include respond-to(sm){
+    font-size: 15px;
+  }
+  &:hover{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+  &:active{
+    background-color: black;
+    color: white;
+  }
+}
+.mobile-nav{
+  display: none;
+  @include respond-to(sm){
+    display: block;
+    position: absolute;
+    bottom: 15%;
+    width: 90%;
+    .mobileLi{
+      height: 100px;
+      margin-top: 15%;
+      a{
+        color: black;
+        font-family: $primaryFont;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 20%;
+      }
+    }
+  }
+}
+.behance{
+  width: 10px;
+}
+.snsUl{
+  bottom:30px;
+  left: 3%;
+  font-size: 18px;
+  @include respond-to(sm){
+    right:30%;
+  };
+}
