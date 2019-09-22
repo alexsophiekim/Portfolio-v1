@@ -274,10 +274,12 @@ textarea.form-control {
   height: 70%; }
 
 /* line 120, ../scss/style.scss */
-.img-fluid {
-  height: 373.50px; }
+.contactIcon {
+  background-color: #8394A1;
+  padding: 15px;
+  border-radius: 50px !important; }
 
-/* line 123, ../scss/style.scss */
+/* line 125, ../scss/style.scss */
 .contactBox {
   margin-top: 100px;
   padding-bottom: 100px !important; }
