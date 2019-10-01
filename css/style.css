@@ -154,157 +154,137 @@ section {
   left: 49%;
   transform: translate(-50%, -50%);
   font-family: 'Hepta Slab', serif; }
-  @media (max-width: 576px) {
-    /* line 18, ../scss/style.scss */
-    .mainText {
-      color: white; } }
 
-/* line 27, ../scss/style.scss */
+/* line 24, ../scss/style.scss */
 .mainText1 {
   top: 35% !important; }
   @media (max-width: 576px) {
-    /* line 27, ../scss/style.scss */
+    /* line 24, ../scss/style.scss */
     .mainText1 {
       top: 32% !important; } }
 
-/* line 33, ../scss/style.scss */
+/* line 30, ../scss/style.scss */
 .mainText2 {
-  top: 42% !important; }
-  @media (max-width: 576px) {
-    /* line 33, ../scss/style.scss */
-    .mainText2 {
-      top: 40% !important; } }
+  top: 40% !important; }
 
-/* line 39, ../scss/style.scss */
+/* line 33, ../scss/style.scss */
 .highlight {
   background-color: #f8f9fa;
   width: 50%; }
   @media (max-width: 576px) {
-    /* line 39, ../scss/style.scss */
+    /* line 33, ../scss/style.scss */
     .highlight {
       width: 100%; } }
 
-/* line 46, ../scss/style.scss */
+/* line 40, ../scss/style.scss */
 .title {
   color: #b3b3b3;
   font-weight: bold; }
-  /* line 49, ../scss/style.scss */
+  /* line 43, ../scss/style.scss */
   .title::after {
     display: block;
     content: "";
     clear: both; }
 
-/* line 55, ../scss/style.scss */
+/* line 49, ../scss/style.scss */
 .typed-cursor {
   display: none; }
 
-/* line 58, ../scss/style.scss */
-.typeWarp, #typed {
-  position: absolute;
-  font-family: 'Hepta Slab', serif;
-  top: 40%;
-  left: 43%; }
-  @media (max-width: 576px) {
-    /* line 58, ../scss/style.scss */
-    .typeWarp, #typed {
-      top: 38%;
-      left: 37%; } }
-
-/* line 68, ../scss/style.scss */
+/* line 52, ../scss/style.scss */
 .bioHeader {
   font-weight: bold;
   text-shadow: 3px 3px #b3b3b3; }
 
-/* line 73, ../scss/style.scss */
+/* line 57, ../scss/style.scss */
 .bio {
   letter-spacing: 1px;
   line-height: 1.7; }
 
-/* line 77, ../scss/style.scss */
+/* line 61, ../scss/style.scss */
 mark {
   display: inline;
   padding-bottom: 0.5em; }
 
-/* line 81, ../scss/style.scss */
+/* line 65, ../scss/style.scss */
 .demo {
   max-width: 960px;
   margin: 30px auto; }
 
-/* line 85, ../scss/style.scss */
+/* line 69, ../scss/style.scss */
 .demo > div {
   float: left;
   margin: 20px; }
 
-/* line 89, ../scss/style.scss */
+/* line 73, ../scss/style.scss */
 .mySkills {
   transform: rotate(-90deg);
   margin-right: -60px; }
   @media (max-width: 576px) {
-    /* line 89, ../scss/style.scss */
+    /* line 73, ../scss/style.scss */
     .mySkills {
       display: none; } }
 
-/* line 97, ../scss/style.scss */
+/* line 81, ../scss/style.scss */
 .card-body {
   min-height: 390px !important; }
-  /* line 99, ../scss/style.scss */
+  /* line 83, ../scss/style.scss */
   .card-body p {
     min-height: 50px !important; }
 
-/* line 104, ../scss/style.scss */
+/* line 88, ../scss/style.scss */
 #contact {
   padding-top: 60px;
   background: linear-gradient(to bottom, #fff, #dadada);
   background: -webkit-linear-gradient(to bottom, #fff, #dadada); }
 
-/* line 109, ../scss/style.scss */
+/* line 93, ../scss/style.scss */
 .form-line {
   border-right: 1px solid #cccabd; }
 
-/* line 112, ../scss/style.scss */
+/* line 96, ../scss/style.scss */
 .form-group {
   margin-top: 10px;
   margin-right: 20px; }
 
-/* line 116, ../scss/style.scss */
+/* line 100, ../scss/style.scss */
 label {
   font-size: 1em;
   line-height: 1em; }
 
-/* line 120, ../scss/style.scss */
+/* line 104, ../scss/style.scss */
 textarea.form-control {
   height: 150px; }
 
-/* line 123, ../scss/style.scss */
+/* line 107, ../scss/style.scss */
 .submit {
   font-size: 1.2em;
   float: right; }
 
-/* line 127, ../scss/style.scss */
+/* line 111, ../scss/style.scss */
 .imgBox {
   height: 600px;
   width: 500px; }
   @media (max-width: 576px) {
-    /* line 127, ../scss/style.scss */
+    /* line 111, ../scss/style.scss */
     .imgBox {
       display: none; } }
 
-/* line 134, ../scss/style.scss */
+/* line 118, ../scss/style.scss */
 .profile {
   height: 70%; }
 
-/* line 137, ../scss/style.scss */
+/* line 121, ../scss/style.scss */
 .contactIcon {
   background-color: #8394A1;
   padding: 15px;
   border-radius: 50px !important; }
 
 @media (max-width: 576px) {
-  /* line 142, ../scss/style.scss */
+  /* line 126, ../scss/style.scss */
   .contactText {
     display: none; } }
 
-/* line 147, ../scss/style.scss */
+/* line 131, ../scss/style.scss */
 .contactBox {
   margin-top: 100px;
   padding-bottom: 100px !important; }

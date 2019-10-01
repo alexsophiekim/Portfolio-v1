@@ -20,9 +20,6 @@
   left: 49%;
   transform: translate(-50%, -50%);
   font-family: 'Hepta Slab', serif;
-  @include respond-to(sm){
-    color: white;
-  };
 }
 .mainText1{
   top:35% !important;
@@ -31,10 +28,7 @@
   };
 }
 .mainText2{
-  top:42% !important;
-  @include respond-to(sm){
-    top: 40% !important;
-  };
+  top:40% !important;
 }
 .highlight{
   background-color: #f8f9fa;
@@ -54,16 +48,6 @@
 }
 .typed-cursor{
   display: none;
-}
-.typeWarp,, #typed{
-  position: absolute;
-  font-family: 'Hepta Slab', serif;
-  top: 40%;
-  left: 43%;
-  @include respond-to(sm){
-    top: 38%;
-    left: 37%;
-  }
 }
 .bioHeader{
   // width: 40%;
