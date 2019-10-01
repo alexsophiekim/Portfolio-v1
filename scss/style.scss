@@ -3,6 +3,7 @@
 @import 'fonts';
 @import 'nav';
 @import 'base';
+
 .gray{
   color:$gray;
 }
@@ -38,6 +39,9 @@
 .highlight{
   background-color: #f8f9fa;
   width: 50%;
+  @include respond-to(sm){
+    width: 100%;
+  }
 }
 .title{
   color: #b3b3b3;
@@ -46,6 +50,19 @@
     display: block;
     content: "";
     clear: both;
+  }
+}
+.typed-cursor{
+  display: none;
+}
+.typeWarp,, #typed{
+  position: absolute;
+  font-family: 'Hepta Slab', serif;
+  top: 40%;
+  left: 43%;
+  @include respond-to(sm){
+    top: 38%;
+    left: 37%;
   }
 }
 .bioHeader{
@@ -121,6 +138,11 @@ textarea.form-control {
   background-color: #8394A1;
   padding: 15px;
   border-radius: 50px !important;
+}
+.contactText{
+  @include respond-to(sm){
+    display: none;
+  }
 }
 .contactBox{
   margin-top: 100px;

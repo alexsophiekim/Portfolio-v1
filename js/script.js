@@ -1,12 +1,11 @@
+
 $(document).ready(function(){
-    new TypeIt('#nameIntro', {
-    speed: 200,
-    startDelay: 900,
-    waitUntilVisible: true,
-    cursor:false
-  })
-  .type('{$ophie Kim}')
-  .go();
+  var typed = new Typed('#typed', {
+    strings: ['Sophie Kim'],
+    typeSpeed: 125,
+    backSpeed: 110,
+    loop: true
+  });
 });
 
 $('.navBtn').on('click',function(){
