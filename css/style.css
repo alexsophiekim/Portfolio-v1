@@ -224,67 +224,67 @@ mark {
     .mySkills {
       display: none; } }
 
-/* line 81, ../scss/style.scss */
+/* line 80, ../scss/style.scss */
 .card-body {
   min-height: 390px !important; }
-  /* line 83, ../scss/style.scss */
+  /* line 82, ../scss/style.scss */
   .card-body p {
     min-height: 50px !important; }
 
-/* line 88, ../scss/style.scss */
+/* line 87, ../scss/style.scss */
 #contact {
   padding-top: 60px;
   background: linear-gradient(to bottom, #fff, #dadada);
   background: -webkit-linear-gradient(to bottom, #fff, #dadada); }
 
-/* line 93, ../scss/style.scss */
+/* line 92, ../scss/style.scss */
 .form-line {
   border-right: 1px solid #cccabd; }
 
-/* line 96, ../scss/style.scss */
+/* line 95, ../scss/style.scss */
 .form-group {
   margin-top: 10px;
   margin-right: 20px; }
 
-/* line 100, ../scss/style.scss */
+/* line 99, ../scss/style.scss */
 label {
   font-size: 1em;
   line-height: 1em; }
 
-/* line 104, ../scss/style.scss */
+/* line 103, ../scss/style.scss */
 textarea.form-control {
   height: 150px; }
 
-/* line 107, ../scss/style.scss */
+/* line 106, ../scss/style.scss */
 .submit {
   font-size: 1.2em;
   float: right; }
 
-/* line 111, ../scss/style.scss */
+/* line 110, ../scss/style.scss */
 .imgBox {
   height: 600px;
   width: 500px; }
   @media (max-width: 576px) {
-    /* line 111, ../scss/style.scss */
+    /* line 110, ../scss/style.scss */
     .imgBox {
       display: none; } }
 
-/* line 118, ../scss/style.scss */
+/* line 117, ../scss/style.scss */
 .profile {
   height: 70%; }
 
-/* line 121, ../scss/style.scss */
+/* line 120, ../scss/style.scss */
 .contactIcon {
   background-color: #8394A1;
   padding: 15px;
   border-radius: 50px !important; }
 
 @media (max-width: 576px) {
-  /* line 126, ../scss/style.scss */
+  /* line 125, ../scss/style.scss */
   .contactText {
     display: none; } }
 
-/* line 131, ../scss/style.scss */
+/* line 130, ../scss/style.scss */
 .contactBox {
   margin-top: 100px;
   padding-bottom: 100px !important; }
